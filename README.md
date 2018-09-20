@@ -70,6 +70,7 @@ jar {
 ```
 
 `name` - Module name, should be lowercase and not containing spaces or other characters
+
 `main` - Main module class implementing [KyokoModule](https://github.com/KyokoBot/Kyoko/blob/kyoko-v2/core/src/main/java/moe/kyokobot/bot/module/KyokoModule.java) interface.
 
 3. Go to IDE and create main module class
@@ -156,3 +157,5 @@ kd!modules start mymodule
 ```
 ky!hello
 ```
+
+![hello example](https://puu.sh/BxU5m/5ffbea9b51.png)
