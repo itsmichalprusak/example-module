@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":core")
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+
+jar {
+    archiveName = "${project.name}.jar"
+    destinationDir project(":core").file('../deploy/modules')
+}
