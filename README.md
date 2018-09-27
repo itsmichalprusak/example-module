@@ -2,7 +2,7 @@
 
 Example module boilerplate for [Kyoko Discord bot](https://github.com/KyokoBot/Kyoko).
 
-## How tu compile?
+## How to compile?
 
 1. Clone main Kyoko repository.
 
@@ -117,7 +117,7 @@ public class Module implements KyokoModule {
 
 **HelloCommand.java**
 
-```
+```java
 package com.github.gabixdev.mymodule.commands;
 
 import moe.kyokobot.bot.command.Command;
